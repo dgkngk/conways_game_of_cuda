@@ -1,5 +1,5 @@
-CC = gcc
-CFLAGS = -pedantic -Wall
+CC = nvcc
+CFLAGS = 
 OBJECTS = gameOfLife.o board.o cell.o
 
 all: gameOfLife
